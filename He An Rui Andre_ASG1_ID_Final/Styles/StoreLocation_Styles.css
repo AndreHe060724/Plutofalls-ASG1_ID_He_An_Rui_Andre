@@ -82,6 +82,16 @@ h1, h2, h3 {
   height: 500px;
 }
 
+/* 
+  When a store card is clicked, it becomes slightly larger.
+  This works together with the JavaScript 'open' class toggle.
+*/
+.location-card.open {
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
 /* Adds spacing above and below the page title */
 .title {
   padding-top: 50px;
